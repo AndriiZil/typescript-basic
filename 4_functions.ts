@@ -31,6 +31,6 @@ function position(a?: number, b?: number) {
   return {x: a, y: b}
 }
 
-console.log('Empty:', position());
-console.log('One params:', position(42));
-console.log('Two params:', position(10, 15));
+console.log('Empty:', position()); // => Empty: { x: undefined, y: undefined }
+console.log('One params:', position(42)); // => One params: { x: 42, y: undefined, default: '42' }
+console.log('Two params:', position(10, 15)); // => Two params: { x: 10, y: 15 }

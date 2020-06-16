@@ -5,8 +5,8 @@ enum MemberShip {
 }
 
 const memberShip = MemberShip.Standard;
-console.log(MemberShip.Standard);
-console.log(MemberShip[2]);
+console.log(MemberShip.Standard); // => 1
+console.log(MemberShip[2]); // => Premium
 
 enum SocialMedia {
   VK = 'VK',
@@ -16,4 +16,4 @@ enum SocialMedia {
 
 const social = SocialMedia.INSTAGRAM;
 
-console.log(social);
+console.log(social); // => INSTAGRAM

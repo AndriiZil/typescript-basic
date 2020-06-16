@@ -34,5 +34,5 @@ function setAlertType(type: AlertType) {
   // ...
 }
 
-setAlertType('default');
+setAlertType('default'); // => Error
 setAlertType('success');
